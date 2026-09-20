@@ -1,0 +1,86 @@
+[
+  {
+    "id": "PRED-D3A7846B",
+    "timestamp": "2026-09-21 01:29:39",
+    "patient_id": "PAT-5521",
+    "age": 56.0,
+    "sex": "male",
+    "risk_category": "High Risk",
+    "risk_score": 0.9999,
+    "model_used": "Logistic Regression",
+    "abnormal_count": 8,
+    "summary": "Our research system has flagged several cardiometabolic health indicators that are higher than recommended standard thresholds. The most influential factors noted in this assessment include your Symptom: Chest Pain, Symptom: Dyspnea (Shortness of Breath), Family History of CAD. Important: This is an educational research tool, not a medical diagnosis. Please share these findings with a qualified physician or healthcare provider for proper diagnosis and personalized care."
+  },
+  {
+    "id": "PRED-BA841E95",
+    "timestamp": "2026-09-21 01:29:01",
+    "patient_id": "PAT-5521",
+    "age": 56.0,
+    "sex": "male",
+    "risk_category": "High Risk",
+    "risk_score": 0.9606000185012817,
+    "model_used": "XGBoost (Optimized)",
+    "abnormal_count": 8,
+    "summary": "Our research system has flagged several cardiometabolic health indicators that are higher than recommended standard thresholds. The most influential factors noted in this assessment include your Family History of CAD, Diastolic Blood Pressure, Glycated Hemoglobin (HbA1c). Important: This is an educational research tool, not a medical diagnosis. Please share these findings with a qualified physician or healthcare provider for proper diagnosis and personalized care."
+  },
+  {
+    "id": "PRED-6B4BF960",
+    "timestamp": "2026-09-21 01:22:27",
+    "patient_id": "TEST-PAT-001",
+    "age": 55.0,
+    "sex": "male",
+    "risk_category": "High Risk",
+    "risk_score": 0.8723000288009644,
+    "model_used": "XGBoost (Optimized)",
+    "abnormal_count": 8,
+    "summary": "Our research system has flagged several cardiometabolic health indicators that are higher than recommended standard thresholds. The most influential factors noted in this assessment include your Family History of CAD, Diastolic Blood Pressure, Non-Smoker. Important: This is an educational research tool, not a medical diagnosis. Please share these findings with a qualified physician or healthcare provider for proper diagnosis and personalized care."
+  },
+  {
+    "id": "PRED-9FA40AFB",
+    "timestamp": "2026-09-21 01:21:31",
+    "patient_id": "TEST-PAT-001",
+    "age": 55.0,
+    "sex": "male",
+    "risk_category": "High Risk",
+    "risk_score": 0.8723000288009644,
+    "model_used": "XGBoost (Optimized)",
+    "abnormal_count": 8,
+    "summary": "Our research system has flagged several cardiometabolic health indicators that are higher than recommended standard thresholds. The most influential factors noted in this assessment include your Family History of CAD, Diastolic Blood Pressure, Non-Smoker. Important: This is an educational research tool, not a medical diagnosis. Please share these findings with a qualified physician or healthcare provider for proper diagnosis and personalized care."
+  },
+  {
+    "id": "ANALYSIS-HIST-001",
+    "timestamp": "2026-09-18 10:45:12",
+    "patient_id": "PAT-1042",
+    "age": 58,
+    "sex": "male",
+    "risk_category": "High Risk",
+    "risk_score": 0.842,
+    "model_used": "XGBoost (Optimized)",
+    "abnormal_count": 5,
+    "summary": "Elevated fasting glucose (134 mg/dL), systolic BP (146 mmHg), and low HDL (36 mg/dL) identified as dominant risk factors."
+  },
+  {
+    "id": "ANALYSIS-HIST-002",
+    "timestamp": "2026-09-19 14:12:05",
+    "patient_id": "PAT-1043",
+    "age": 44,
+    "sex": "female",
+    "risk_category": "Low Risk",
+    "risk_score": 0.185,
+    "model_used": "Random Forest",
+    "abnormal_count": 0,
+    "summary": "All metabolic biomarkers and hemodynamics within healthy physiological reference intervals."
+  },
+  {
+    "id": "ANALYSIS-HIST-003",
+    "timestamp": "2026-09-20 09:30:40",
+    "patient_id": "PAT-1044",
+    "age": 62,
+    "sex": "female",
+    "risk_category": "Moderate Risk",
+    "risk_score": 0.548,
+    "model_used": "XGBoost (Optimized)",
+    "abnormal_count": 2,
+    "summary": "Borderline elevated LDL (142 mg/dL) and prehypertension (132/84 mmHg) with low physical activity."
+  }
+]

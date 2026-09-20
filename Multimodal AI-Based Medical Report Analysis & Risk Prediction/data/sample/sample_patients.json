@@ -1,0 +1,110 @@
+[
+  {
+    "profile_name": "Low Risk: Healthy Checkup (Anna, 34)",
+    "patient_data": {
+      "demographics": {
+        "patient_id": "PAT-LOW-001",
+        "age": 34,
+        "sex": "female",
+        "height_cm": 168.0,
+        "weight_kg": 61.0,
+        "bmi": 21.6,
+        "smoking_status": "never",
+        "physical_activity": "high",
+        "family_history_cad": false
+      },
+      "vitals_labs": {
+        "systolic_bp": 114.0,
+        "diastolic_bp": 74.0,
+        "heart_rate": 64.0,
+        "fasting_glucose": 84.0,
+        "hba1c": 5.1,
+        "total_cholesterol": 165.0,
+        "hdl_cholesterol": 58.0,
+        "ldl_cholesterol": 88.0,
+        "triglycerides": 95.0,
+        "hemoglobin": 13.6
+      },
+      "symptoms": {
+        "chest_pain": false,
+        "shortness_of_breath": false,
+        "fatigue": false,
+        "dizziness": false,
+        "palpitations": false,
+        "notes": "Patient reports excellent energy levels and runs 5km 3x weekly."
+      }
+    }
+  },
+  {
+    "profile_name": "Moderate Risk: Borderline Vitals (Robert, 52)",
+    "patient_data": {
+      "demographics": {
+        "patient_id": "PAT-MOD-002",
+        "age": 52,
+        "sex": "male",
+        "height_cm": 178.0,
+        "weight_kg": 88.0,
+        "bmi": 27.8,
+        "smoking_status": "former",
+        "physical_activity": "moderate",
+        "family_history_cad": true
+      },
+      "vitals_labs": {
+        "systolic_bp": 132.0,
+        "diastolic_bp": 85.0,
+        "heart_rate": 76.0,
+        "fasting_glucose": 108.0,
+        "hba1c": 5.8,
+        "total_cholesterol": 215.0,
+        "hdl_cholesterol": 44.0,
+        "ldl_cholesterol": 138.0,
+        "triglycerides": 175.0,
+        "hemoglobin": 14.8
+      },
+      "symptoms": {
+        "chest_pain": false,
+        "shortness_of_breath": false,
+        "fatigue": true,
+        "dizziness": false,
+        "palpitations": false,
+        "notes": "Patient notes occasional afternoon fatigue and workplace stress."
+      }
+    }
+  },
+  {
+    "profile_name": "High Risk: Metabolic Syndrome (Eleanor, 64)",
+    "patient_data": {
+      "demographics": {
+        "patient_id": "PAT-HIGH-003",
+        "age": 64,
+        "sex": "female",
+        "height_cm": 162.0,
+        "weight_kg": 84.0,
+        "bmi": 32.0,
+        "smoking_status": "current",
+        "physical_activity": "low",
+        "family_history_cad": true
+      },
+      "vitals_labs": {
+        "systolic_bp": 152.0,
+        "diastolic_bp": 94.0,
+        "heart_rate": 86.0,
+        "fasting_glucose": 142.0,
+        "hba1c": 7.3,
+        "total_cholesterol": 265.0,
+        "hdl_cholesterol": 36.0,
+        "ldl_cholesterol": 172.0,
+        "triglycerides": 285.0,
+        "hemoglobin": 14.1
+      },
+      "symptoms": {
+        "chest_pain": true,
+        "shortness_of_breath": true,
+        "fatigue": true,
+        "dizziness": true,
+        "palpitations": false,
+        "notes": "Patient reports exertional tightness and persistent fatigue."
+      }
+    }
+  }
+]
